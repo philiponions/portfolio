@@ -129,7 +129,7 @@ export default function Home() {
                             <div className={raleway.className}> 
                                 <Section>                            
                                     <div class="lg:flex sm:items-align justify-between p-16 w-full items-center">
-                                        <img src="../images/phclogo.png"></img>
+                                        <a href="https://projecthumancity.com/" target="_blank"><img src="../images/phclogo.png"></img></a>
                                         <div class="w-full ml-32">
                                             <h1 class="text-1.5xl font-black">Software Developer Intern</h1>
                                             <div class="flex justify-between">
@@ -148,7 +148,7 @@ export default function Home() {
                             <div className={raleway.className}>
                                 <Section>
                                     <div class="lg:flex sm:items-align justify-between p-16 w-full items-center">
-                                        <img src="../images/pmlogo.png"></img>
+                                        <a href="https://thepowdermill.ca/"><img src="../images/pmlogo.png"></img></a>
                                         <div class="w-full ml-32">
                                             <h1 class="text-1.5xl font-black">Software Developer Intern</h1>
                                             <div class="flex justify-between">
