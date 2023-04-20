@@ -6,6 +6,7 @@ import { Raleway } from 'next/font/google'
 import { motion } from "framer-motion"
 import AnimatedTitle from "../components/AnimatedTitle";
 import Section from "../components/Section";
+import Project from "@/components/Project";
 // import mysql from '../images/mysql.svg' // relative path to image 
 
 const poppins = Poppins({
@@ -73,7 +74,7 @@ export default function Home() {
                         </div>
                     </Section>                    
                     <Section>
-                        <div class="shadow-lg p-8 my-10">
+                        <div class="shadow-lg p-8">
                             <h1 class="text-2xl font-bold">
                             Programming Languages
                             </h1>
@@ -114,7 +115,7 @@ export default function Home() {
                                         <div><img width="200" src="../images/mongodb.svg"/><p>MongoDB</p></div>
                                         <div><img width="90" src="../images/android.svg"/><p>Android Studio</p></div>
                                         <div><img width="100" src="../images/unity.svg"/><p>Unity</p></div>
-                                    </div>
+                                    </div>                                    
                                 </center>
                             </div>
                         </div>
@@ -164,9 +165,25 @@ export default function Home() {
                             </div>
                         </div>
                     </Section>
+                    <div>
+                    <Section>
+                        <div id="section-3"/>
+                        <h3 class="text-3xl font-extrabold">Projects</h3>  
+                        <div class="flex grid lg:grid-cols-3 sm:grid-cols-3 items-center gap-4"> 
+                            <a target="_blank" href="https://who-is-teaching.netlify.app/"><Project src="../images/whoisteaching.png" name="Who-is-Teaching?" desc="A website that allows you to view ratings of the professors who are currently teaching at uAlberta"/></a>             
+                            <a target="_blank" href="https://www.youtube.com/watch?v=wD61rurNSts"><Project src="../images/qradventure.png" name="QRAdventure" desc="An android game that gamifies the collection of scanning QR Codes!"/></a>       
+                            <a target="_blank" href="https://gameslib.onrender.com/swagger/index.html"><Project src="../images/gameslib.png" name="GamesLibrary" desc="A REST API made in .NET Core which connects to a database filled with over 1000+ games"/></a>       
+                            <a target="_blank" href="https://github.com/philiponions/MyFriends"><Project src="../images/myfriends.png" name="MyFriends" desc="A mobile application that lets you store details about your friends (like their birthdays!)"/></a>
+                            <a target="_blank" href="https://portfolio-eosin-ten.vercel.app/"><Project src="../images/portfolio.png" name="This Portfolio" desc="The portfolio you're looking at right NOW. Made in Next.js with tailwind css.."/></a>                                          
+                            <Project name="FormuLister (COMING SOON)" desc="A mobile app that allows you to conveniently reuse math formulas you commonly use."/>       
+                        </div>
+                    </Section>
+                    <center class="my-10"> Contact Page coming soon! :)</center>
+                    </div>
                 </div>     
            </div>
-        </div>             
+        </div>    
+                 
       </div>
   )
 }

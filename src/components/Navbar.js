@@ -25,10 +25,10 @@ export default function Navbar() {
                   <a href="#section-2" class="py-2 pl-3 pr-4 opacity-100 transition duration-300 ease-in-out hover:opacity-50">About</a>
                 </li>
                 <li>
-                  <a href="#" class="py-2 pl-3 pr-4 opacity-100 transition duration-300 ease-in-out hover:opacity-50">Projects</a>
+                  <a href="#section-3" class="py-2 pl-3 pr-4 opacity-100 transition duration-300 ease-in-out hover:opacity-50">Projects</a>
                 </li>
                 <li>
-                  <a href="#" class="py-2 pl-3 pr-4 opacity-100 transition duration-300 ease-in-out hover:opacity-50">Contact</a>           
+                  <a href="#section-3" class="py-2 pl-3 pr-4 opacity-100 transition duration-300 ease-in-out hover:opacity-50">Contact</a>           
                 </li>
               </ul>
             </div>
