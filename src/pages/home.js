@@ -33,6 +33,7 @@ export default function Home() {
               <motion.span className="inline-block" initial={{ opacity: 0, y: "0.25em" }} animate={{ opacity: 1, y: "0em", transition: { duration: 1, ease: [0.2, 0.65, 0.3, 0.9] } }}>    
                 <h3 class="text-3xl">I'm Huey Gonzales, </h3>
               </motion.span>  
+              <br/>
               <motion.span className="inline-block" initial={{ opacity: 0, y: "0.25em" }} animate={{ opacity: 1, y: "0em", transition: { duration: 1, ease: [0.2, 0.65, 0.3, 0.9] } }}>    
                 <h3 class="text-3xl"> and I'm a</h3>
               </motion.span>  
@@ -57,13 +58,13 @@ export default function Home() {
            <div class="p-16" id="section-2">
                           
                 <Section>                    
-                    <h3 class="text-3xl font-extrabold">About</h3>  
+                    <h3 class="text-3xl font-extrabold ">About</h3>  
                 </Section>
                 <div>
                     <Section>
                         <div class="shadow-lg p-8">
                             <h1 class="text-2xl font-bold">
-                            How's it going? I’m Huey
+                            Hi there. It's Huey 😃
                             </h1>
                             <div>
                                 <p className={raleway.className}>
@@ -164,8 +165,10 @@ export default function Home() {
                                 </Section>                                                      
                             </div>
                         </div>
-                    </Section>
-                    <div>
+                    </Section>                   
+                </div>     
+           </div>
+           <div class="px-16">
                     <Section>
                         <div id="section-3"/>
                         <h3 class="text-3xl font-extrabold">Projects</h3>  
@@ -177,11 +180,9 @@ export default function Home() {
                             <a target="_blank" href="https://portfolio-eosin-ten.vercel.app/"><Project src="../images/portfolio.png" name="This Portfolio" desc="The portfolio you're looking at right NOW. Made in Next.js with tailwind css.."/></a>                                          
                             <Project name="FormuLister (COMING SOON)" desc="A mobile app that allows you to conveniently reuse math formulas you commonly use."/>       
                         </div>
+                    <center class="m-5"> Contact Page coming soon! :)</center>
                     </Section>
-                    <center class="my-10"> Contact Page coming soon! :)</center>
-                    </div>
-                </div>     
-           </div>
+            </div>
         </div>    
                  
       </div>
