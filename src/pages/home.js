@@ -58,7 +58,7 @@ export default function Home() {
            <div class="p-16" id="section-2">
                           
                 <Section>                    
-                    <h3 class="text-3xl font-extrabold ">About</h3>  
+                    <h3 class="text-3xl font-extrabold text-center lg:text-left">About</h3>  
                 </Section>
                 <div>
                     <Section>
@@ -123,7 +123,7 @@ export default function Home() {
                     </Section>
                     <Section>                        
                         <div class="shadow-lg pt-8 px-8 my-10">
-                            <h1 class="text-2xl font-bold text-center md:text-start">
+                            <h1 class="text-3xl font-extrabold text-center lg:text-left">
                             Work Experience
                             </h1>
                             <div className={raleway.className}> 
@@ -171,7 +171,7 @@ export default function Home() {
            <div class="px-16">
                     <Section>
                         <div id="section-3"/>
-                        <h3 class="text-3xl font-extrabold">Projects</h3>  
+                        <h3 class="text-3xl font-extrabold text-center lg:text-left">Projects</h3>  
                         <div class="flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-4"> 
                             <a target="_blank" href="https://who-is-teaching.netlify.app/"><Project src="../images/whoisteaching.png" name="Who-is-Teaching?" desc="A website that allows you to view ratings of the professors who are currently teaching at uAlberta"/></a>             
                             <a target="_blank" href="https://www.youtube.com/watch?v=wD61rurNSts"><Project src="../images/qradventure.png" name="QRAdventure" desc="An android game that gamifies the collection of scanning QR Codes!"/></a>       
