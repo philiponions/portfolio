@@ -123,7 +123,7 @@ export default function Home() {
                     </Section>
                     <Section>                        
                         <div class="shadow-lg pt-8 px-8 my-10">
-                            <h1 class="text-3xl font-extrabold text-center lg:text-left">
+                            <h1 class="text-2xl font-bold text-center lg:text-left">
                             Work Experience
                             </h1>
                             <div className={raleway.className}> 
