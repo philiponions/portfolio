@@ -45,6 +45,7 @@ export default function Navbar() {
                   </a>                                                
               </ul>
             </div>
+            <Burger/>
           </div>
         </div>
       </nav>    
