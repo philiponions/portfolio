@@ -53,7 +53,7 @@ export default function TypeWriter({words, blinkType}) {
 
   return (    
       <a className={font.className}>
-        <div class="hidden md:block">
+        <div>
           {`${words[index].substring(0, subIndex)}${blink ? blinkType : " "}`}
         </div>
       </a>    

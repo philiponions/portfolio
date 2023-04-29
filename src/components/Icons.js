@@ -2,7 +2,20 @@ import React from 'react'
 
 function Icons() {
   return (
-    <div className='mr-5'>
+    <div className='mr-5 flex'>
+        <div class="flex">
+              <ul class="flex text-white">
+                <li>                  
+                  <a href="#section-2" class="py-2 pl-3 pr-4 opacity-100 transition duration-300 ease-in-out hover:opacity-50">About</a>
+                </li>
+                <li>
+                  <a href="#section-3" class="py-2 pl-3 pr-4 opacity-100 transition duration-300 ease-in-out hover:opacity-50">Projects</a>
+                </li>
+                <li>
+                  <a href="#section-3" class="py-2 pl-3 pr-4 opacity-100 transition duration-300 ease-in-out hover:opacity-50">Contact</a>           
+                </li>
+              </ul>
+            </div>  
         <ul class="text-white ml-13 items-center hidden md:flex">                
             <a target="_blank" href="https://www.linkedin.com/in/huey-gonzales-30bab7228/" class="ml-16 opacity-100 transition duration-300 ease-in-out hover:opacity-50">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26.4286 0H3.57143C1.6 0 0 1.6 0 3.57143V26.4286C0 28.4 1.6 30 3.57143 30H26.4286C28.4 30 30 28.4 30 26.4286V3.57143C30 1.6 28.4 0 26.4286 0ZM9.28571 11.4286V25H5V11.4286H9.28571ZM5 7.47857C5 6.47857 5.85714 5.71429 7.14286 5.71429C8.42857 5.71429 9.23571 6.47857 9.28571 7.47857C9.28571 8.47857 8.48571 9.28571 7.14286 9.28571C5.85714 9.28571 5 8.47857 5 7.47857ZM25 25H20.7143C20.7143 25 20.7143 18.3857 20.7143 17.8571C20.7143 16.4286 20 15 18.2143 14.9714H18.1571C16.4286 14.9714 15.7143 16.4429 15.7143 17.8571C15.7143 18.5071 15.7143 25 15.7143 25H11.4286V11.4286H15.7143V13.2571C15.7143 13.2571 17.0929 11.4286 19.8643 11.4286C22.7 11.4286 25 13.3786 25 17.3286V25Z" fill="white"/></svg>    

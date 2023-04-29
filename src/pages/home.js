@@ -7,6 +7,7 @@ import { motion } from "framer-motion"
 import AnimatedTitle from "../components/AnimatedTitle";
 import Section from "../components/Section";
 import Project from "@/components/Project";
+import Menu from "@/components/Menu";
 // import mysql from '../images/mysql.svg' // relative path to image 
 
 const poppins = Poppins({
@@ -26,9 +27,9 @@ const raleway2 = Raleway({
 export default function Home() {
   return (         
       <div>        
-        <div className={poppins.className}>
+        <div className={poppins.className}>      
           <div class="flex flex-col-reverse md:flex-row items-center justify-center p-16 gap-32 md:gap-0">
-            <div class="lg:w-1/2 lg:center-left text-center md:text-left">
+            <div class="lg:w-1/2 lg:center-left text-center md:text-left mt-20">
               <AnimatedTitle text={"Hey There!"}/>     
               <motion.span className="inline-block" initial={{ opacity: 0, y: "0.25em" }} animate={{ opacity: 1, y: "0em", transition: { duration: 1, ease: [0.2, 0.65, 0.3, 0.9] } }}>    
                 <h3 class="text-3xl">I'm Huey Gonzales, </h3>
