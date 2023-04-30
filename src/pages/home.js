@@ -169,7 +169,7 @@ export default function Home() {
                     </Section>                   
                 </div>     
            </div>
-           <div class="px-16">
+           <div class="px-2 md:px-16">
                     <Section>
                         <div id="section-3"/>
                         <h3 class="text-3xl font-extrabold text-center lg:text-left">Projects</h3>  
