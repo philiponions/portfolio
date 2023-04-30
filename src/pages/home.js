@@ -42,7 +42,7 @@ export default function Home() {
                 <h3 class="text-3xl font-extrabold">Software Developer</h3> 
               </motion.span>                                 
             </div>
-            <div class="md:ml-32 ml-0">
+            <div class="md:ml-32 ml-0 mt-20">
             <motion.div
                 className="box"
                 initial={{ opacity: 0, scale: 0.5 }}
