@@ -56,7 +56,7 @@ export default function Home() {
            </div>
         </div>
         <div className={raleway2.className}>
-           <div class="p-16" id="section-2">
+           <div class="p-2 md:p-16" id="section-2">
                           
                 <Section>                    
                     <h3 class="text-3xl font-extrabold text-center lg:text-left">About</h3>  
