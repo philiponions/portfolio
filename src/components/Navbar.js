@@ -45,7 +45,7 @@ export default function Navbar() {
           </div>
         </div>
       </nav>    
-      <Menu isOpen={isOpen}/>
+      <Menu isOpen={isOpen} setIsOpen={setIsOpen}/>
       </div>
   )
 }
