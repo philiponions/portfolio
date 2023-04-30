@@ -180,10 +180,20 @@ export default function Home() {
                             <a target="_blank" href="https://github.com/philiponions/MyFriends"><Project src="../images/myfriends.png" name="MyFriends" desc="A mobile application that lets you store details about your friends (like their birthdays!)"/></a>
                             <a target="_blank" href="https://portfolio-eosin-ten.vercel.app/"><Project src="../images/portfolio.png" name="This Portfolio" desc="The portfolio you're looking at right NOW. Made in Next.js with tailwind css.."/></a>                                          
                             <a target="_blank" href="https://github.com/philiponions/FormuLister-Mobile-App"><Project src="../images/formulister.png" name="FormuLister" desc="A mobile app that allows you to conveniently reuse math formulas you use everyday."></Project></a>       
-                        </div>
-                    <center id="section-4" class="m-5"> Contact Page coming soon! :)</center>
+                        </div>                        
+                    {/* <center id="section-4" class="m-5"> Contact Page coming soon! :)</center> */}
                     </Section>
             </div>
+            <div class="px-2 md:px-16">
+                <Section>                    
+                        <h3 class="text-3xl font-extrabold text-center lg:text-left">Contact</h3> 
+                        <div class="shadow-lg pt-8 px-8 my-10">                            
+                            <div class="bg-green-500">
+                                Box here!
+                            </div>
+                        </div>                     
+                </Section>
+            </div>            
         </div>    
                  
       </div>
