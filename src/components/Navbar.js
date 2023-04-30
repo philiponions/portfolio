@@ -32,7 +32,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div class="fixed w-full z-20 h-full">
+    <div class="fixed w-full z-20">
       <nav class="bg-black p-5">        
         <div class="flex justify-between ">   
           <div class="text-white flex items-center">
