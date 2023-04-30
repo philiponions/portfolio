@@ -181,7 +181,7 @@ export default function Home() {
                             <a target="_blank" href="https://portfolio-eosin-ten.vercel.app/"><Project src="../images/portfolio.png" name="This Portfolio" desc="The portfolio you're looking at right NOW. Made in Next.js with tailwind css.."/></a>                                          
                             <a target="_blank" href="https://github.com/philiponions/FormuLister-Mobile-App"><Project src="../images/formulister.png" name="FormuLister" desc="A mobile app that allows you to conveniently reuse math formulas you use everyday."></Project></a>       
                         </div>
-                    <center class="m-5"> Contact Page coming soon! :)</center>
+                    <center id="section-4" class="m-5"> Contact Page coming soon! :)</center>
                     </Section>
             </div>
         </div>    
