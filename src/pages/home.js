@@ -174,13 +174,13 @@ export default function Home() {
                         <div id="section-3"/>
                         <h3 class="text-3xl font-extrabold text-center lg:text-left">Projects</h3>  
                         <div class="flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-4"> 
-                            <a target="_blank" href="https://who-is-teaching.netlify.app/"><Project src="../images/whoisteaching.png" name="Who-is-Teaching?" desc="A website that allows you to view ratings of the professors who are currently teaching at uAlberta"/></a>             
-                            <a target="_blank" href="https://www.youtube.com/watch?v=wD61rurNSts"><Project src="../images/qradventure.png" name="QRAdventure" desc="An android game that gamifies the collection of scanning QR Codes!"/></a>       
-                            <a target="_blank" href="https://gameslib.onrender.com/swagger/index.html"><Project src="../images/gameslib.png" name="GamesLibrary" desc="A REST API made in .NET Core which connects to a database filled with over 1000+ games"/></a>       
-                            <a target="_blank" href="https://github.com/philiponions/MyFriends"><Project src="../images/myfriends.png" name="MyFriends" desc="A mobile application that lets you store details about your friends (like their birthdays!)"/></a>
-                            <a target="_blank" href="https://portfolio-eosin-ten.vercel.app/"><Project src="../images/portfolio.png" name="This Portfolio" desc="The portfolio you're looking at right NOW. Made in Next.js with tailwind css.."/></a>                                          
-                            <a target="_blank" href="https://github.com/philiponions/FormuLister-Mobile-App"><Project src="../images/formulister.png" name="FormuLister" desc="A mobile app that allows you to conveniently reuse math formulas you use everyday."></Project></a>       
-                        </div>
+                            <a target="_blank" href="https://github.com/philiponions/FormuLister-Mobile-App"><Project src="../images/formulister.png" tech="React Native, Flask, MongoDB, Node.js, Express, Docker" name="FormuLister" desc="A mobile app that allows you to conveniently reuse math formulas you use everyday."></Project></a>       
+                            <a target="_blank" href="https://who-is-teaching.netlify.app/"><Project src="../images/whoisteaching.png" tech="Node.js, Express, React, Material UI" name="Who-is-Teaching?" desc="A website that allows you to view ratings of the professors who are currently teaching at uAlberta"/></a>             
+                            <a target="_blank" href="https://www.youtube.com/watch?v=wD61rurNSts"><Project src="../images/qradventure.png" tech="Android Studio, Java, XML, Firebase, Figma" name="QRAdventure" desc="An android game that gamifies the collection of scanning QR Codes!"/></a>       
+                            <a target="_blank" href="https://gameslib.onrender.com/swagger/index.html"><Project src="../images/gameslib.png" tech="C#, ASP.NET Core, SQLite, Docker" name="GamesLibrary" desc="A REST API made in .NET Core which connects to a database filled with over 1000+ games"/></a>       
+                            <a target="_blank" href="https://github.com/philiponions/MyFriends"><Project src="../images/myfriends.png" tech="React Native" name="MyFriends" desc="A mobile application that lets you store details about your friends (like their birthdays!)"/></a>
+                            <a target="_blank" href="https://portfolio-eosin-ten.vercel.app/"><Project src="../images/portfolio.png" tech="Next.js, Tailwind CSS" name="This Portfolio" desc="The portfolio you're looking at right NOW. Made in Next.js with tailwind css.."/></a>                                          
+                        </div>    
                     <center id="section-4" class="m-5"> Contact Page coming soon! :)</center>
                     </Section>
             </div>

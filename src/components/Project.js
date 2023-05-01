@@ -13,7 +13,7 @@ const raleway2 = Raleway({
 })
 
 
-function Project({name, desc, src}) {
+function Project({name, desc, src, tech}) {
   return (
       <motion.div
       
@@ -29,7 +29,7 @@ function Project({name, desc, src}) {
                 {src ? <img class="object-cover scale-150" src={src}/> : <center class="text-4xl my-10">?</center>}
             </div>
             <div class="mx-5 mt-5 pb-6">
-                <h1 className={raleway2.className}>{name}</h1>
+                <h1 className={raleway2.className}>{name} ({tech})</h1>
                 <h2 className={raleway.className}>{desc}</h2>
             </div>
         </div>
