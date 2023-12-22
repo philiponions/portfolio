@@ -130,6 +130,25 @@ export default function Home() {
                             <div className={raleway.className}> 
                                 <Section>                            
                                     <div class="flex md:flex-row flex-col justify-between p-0 md:p-16 w-full items-center">
+                                        <a href="https://smilesonica.com/" target="_blank"><img width={170} src="../images/smilesonicalogo.png"></img></a>
+                                        <div class="w-full ml-0 md:ml-32">
+                                            <h1 class="text-1.5xl font-black md:text-left text-center">Software Developer Intern</h1>
+                                            <div class="flex md:justify-between justify-center lg:flex-row flex-col md:items-start items-center">
+                                                <h2 class="text-xl font-black">SmileSonica</h2>
+                                                <h2 class="text-xl font-black italic">Jun 2023-Aug 2023</h2>
+                                            </div>
+                                            <ul class="list-disc my-10 grid gap-3">
+                                                <li>I worked on developing internal tools to ensure quality control for the company's flagship product, the AEVO system.</li>
+                                                <li>I was tasked to implement a python script that performs recursive searches of the company's Odoo database, enabling efficient traceability of faulty devices by finding all their usages.</li>
+                                                <li>I also designed a device manager for the AEVO system, it could detect nearby AEVO's and display its firmware version and serial number. I integrated it with the company's Salesforce API to retrieve firmware files for device updates.</li>
+                                            </ul>
+                                        </div>
+                                    </div>                            
+                                </Section>                                                     
+                            </div>
+                            <div className={raleway.className}> 
+                                <Section>                            
+                                    <div class="flex md:flex-row flex-col justify-between p-0 md:p-16 w-full items-center">
                                         <a href="https://projecthumancity.com/" target="_blank"><img src="../images/phclogo.png"></img></a>
                                         <div class="w-full ml-0 md:ml-32">
                                             <h1 class="text-1.5xl font-black md:text-left text-center">Software Developer Intern</h1>
@@ -175,11 +194,13 @@ export default function Home() {
                         <h3 class="text-3xl font-extrabold text-center lg:text-left">Projects</h3>  
                         <div class="flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-4"> 
                             <a target="_blank" href="https://github.com/philiponions/FormuLister-Mobile-App"><Project src="../images/formulister.png" tech="React Native, Flask, MongoDB, Node.js, Express, Docker" name="FormuLister" desc="A mobile app that allows you to conveniently reuse math formulas you use everyday."></Project></a>       
-                            <a target="_blank" href="https://who-is-teaching.netlify.app/"><Project src="../images/whoisteaching.png" tech="Node.js, Express, React, Material UI" name="Who-is-Teaching?" desc="A website that allows you to view ratings of the professors who are currently teaching at uAlberta"/></a>             
+                            <a target="_blank" href="https://github.com/philiponions/whoisteaching"><Project src="../images/whoisteaching.png" tech="Node.js, Express, React, Material UI" name="Who-is-Teaching?" desc="A website that allows you to view ratings of the professors who are currently teaching at uAlberta"/></a>             
                             <a target="_blank" href="https://www.youtube.com/watch?v=wD61rurNSts"><Project src="../images/qradventure.png" tech="Android Studio, Java, XML, Firebase, Figma" name="QRAdventure" desc="An android game that gamifies the collection of scanning QR Codes!"/></a>       
                             <a target="_blank" href="https://gameslib.onrender.com/swagger/index.html"><Project src="../images/gameslib.png" tech="C#, ASP.NET Core, SQLite, Docker" name="GamesLibrary" desc="A REST API made in .NET Core which connects to a database filled with over 1000+ games"/></a>       
                             <a target="_blank" href="https://github.com/philiponions/MyFriends"><Project src="../images/myfriends.png" tech="React Native" name="MyFriends" desc="A mobile application that lets you store details about your friends (like their birthdays!)"/></a>
-                            <a target="_blank" href="https://portfolio-eosin-ten.vercel.app/"><Project src="../images/portfolio.png" tech="Next.js, Tailwind CSS" name="This Portfolio" desc="The portfolio you're looking at right NOW. Made in Next.js with tailwind css.."/></a>                                          
+                            <a target="_blank" href="https://portfolio-eosin-ten.vercel.app/"><Project src="../images/portfolio.png" tech="Next.js, Tailwind CSS" name="This Portfolio" desc="The portfolio you're looking at right NOW. Made in Next.js with tailwind css.."/></a>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=_34zr1igGmk"><Project src="../images/hans.png" tech="C#, Unity, Adobe Flash" name="Leave it to Hans" desc="A 2D defense action game written in C# using the Unity Game Engine with assets drawn in Adobe Flash."/></a>
+                            <a target="_blank" href="https://github.com/uofa-cmput404/404f23project-ctrl-alt-defeat"><Project src="../images/socialdistribution.png" tech="React, Bootstrap, Flask, PostgreSQL, Heroku" name="Social Distribution" desc="An app that connects to other REST API, allowing users to share posts across multiple servers"/></a>                                                                                                                                                                        
                         </div>    
                     <center id="section-4" class="m-5"> Contact Page coming soon! :)</center>
                     </Section>
