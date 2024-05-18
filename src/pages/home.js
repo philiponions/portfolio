@@ -70,7 +70,7 @@ export default function Home() {
                             <div>
                                 <p className={raleway.className}>
                                     I’m a <b>Software Developer</b> and a student currently studying at the <b>University of Alberta. </b> 
-                                    I am currently in my third year of studies. I have experience making full-stack web/mobile applications.
+                                    I am currently in my fourth year of studies. I have experience making full-stack web/mobile applications.
                                 </p>
                             </div>
                         </div>
@@ -128,6 +128,21 @@ export default function Home() {
                             Work Experience
                             </h1>
                             <div className={raleway.className}> 
+                            <Section>                            
+                                    <div class="flex md:flex-row flex-col justify-between p-0 md:p-16 w-full items-center">
+                                        <a href="https://cercling.com/" target="_blank"><img width={170} src="../images/cercling.png"></img></a>
+                                        <div class="w-full ml-0 md:ml-32">
+                                            <h1 class="text-1.5xl font-black md:text-left text-center">Software Developer Intern</h1>
+                                            <div class="flex md:justify-between justify-center lg:flex-row flex-col md:items-start items-center">
+                                                <h2 class="text-xl font-black">Cercling</h2>
+                                                <h2 class="text-xl font-black italic">May 2024 - Aug 2024</h2>
+                                            </div>
+                                            <ul class="list-disc my-10 grid gap-3">
+                                                <li>I was recently hired as a full-stack developer intern! More in-depth description coming soon : )</li>                                                
+                                            </ul>
+                                        </div>
+                                    </div>                            
+                                </Section>    
                                 <Section>                            
                                     <div class="flex md:flex-row flex-col justify-between p-0 md:p-16 w-full items-center">
                                         <a href="https://smilesonica.com/" target="_blank"><img width={170} src="../images/smilesonicalogo.png"></img></a>
