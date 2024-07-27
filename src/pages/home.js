@@ -89,7 +89,7 @@ export default function Home() {
                                     <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
                                     <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
                                     <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-                                    <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
+                                    <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>                                    
                                     <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white"/>
                                 </div>                            
                             </div>
@@ -115,6 +115,8 @@ export default function Home() {
                                         <div><img width="230" src="../images/express.svg"/><p>Express.js</p></div>
                                         <div><img width="80" src="../images/firebase.svg"/><p>Google Firebase</p></div>
                                         <div><img width="200" src="../images/mongodb.svg"/><p>MongoDB</p></div>
+                                        <div><img width="100" src="../images/nestjs.svg"/><p>NestJS</p></div>
+                                        <div><img width="100" src="../images/flask.svg"/><p>Flask</p></div>
                                         <div><img width="90" src="../images/android.svg"/><p>Android Studio</p></div>
                                         <div><img width="100" src="../images/unity.svg"/><p>Unity</p></div>
                                     </div>                                    
@@ -138,7 +140,11 @@ export default function Home() {
                                                 <h2 class="text-xl font-black italic">May 2024 - Aug 2024</h2>
                                             </div>
                                             <ul class="list-disc my-10 grid gap-3">
-                                                <li>I was recently hired as a full-stack developer intern! More in-depth description coming soon : )</li>                                                
+                                                <li>I am currently working as a Backend Developer Intern!</li>                                                
+                                                <li>I am developing a microservice backend infastructure which aims to automate several manual processes for supply chain networks.</li>                                                
+                                                <li>My main role is to write API endpoints for these microservices in NestJS, and using MongoDB as the database.</li>                                                
+                                                <li>I am also responsible for DevOps affairs, where I maintain and troubleshoot AWS services such as EC2, Amplify and S3 instances.</li>                                                
+                                                <li>Lastly, I was in charge of deploying our production environment in all AWS services.</li>                                                
                                             </ul>
                                         </div>
                                     </div>                            
@@ -217,7 +223,7 @@ export default function Home() {
                             <a target="_blank" href="https://www.youtube.com/watch?v=_34zr1igGmk"><Project src="../images/hans.png" tech="C#, Unity, Adobe Flash" name="Leave it to Hans" desc="A 2D defense action game written in C# using the Unity Game Engine with assets drawn in Adobe Flash."/></a>
                             <a target="_blank" href="https://github.com/uofa-cmput404/404f23project-ctrl-alt-defeat"><Project src="../images/socialdistribution.png" tech="React, Bootstrap, Flask, PostgreSQL, Heroku" name="Social Distribution" desc="An app that connects to other REST API, allowing users to share posts across multiple servers"/></a>                                                                                                                                                                        
                         </div>    
-                    <center id="section-4" class="m-5"> Contact Page coming soon! :)</center>
+                    {/* <center id="section-4" class="m-5"> Contact Page coming soon! :)</center> */}
                     </Section>
             </div>
         </div>    
