@@ -65,12 +65,11 @@ export default function Home() {
                     <Section>
                         <div class="shadow-lg p-8 md:text-left text-center">
                             <h1 class="text-2xl font-bold">
-                            Hi there. It's Huey 😃
+                            Hi there. It's Huey 👋
                             </h1>
                             <div>
                                 <p className={raleway.className}>
-                                    I’m a <b>Software Developer</b> and a student currently studying at the <b>University of Alberta. </b> 
-                                    I am currently in my fourth year of studies. I have experience making full-stack web/mobile applications.
+                                I'm a software developer and computer science graduate at the University of Alberta.
                                 </p>
                             </div>
                         </div>
@@ -89,8 +88,10 @@ export default function Home() {
                                     <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
                                     <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
                                     <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-                                    <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>                                    
-                                    <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white"/>
+                                    <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>   
+                                    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+
+                                    
                                 </div>                            
                             </div>
                         </div>
@@ -140,10 +141,10 @@ export default function Home() {
                                                 <h2 class="text-xl font-black italic">May 2024 - Aug 2024</h2>
                                             </div>
                                             <ul class="list-disc my-10 grid gap-3">
-                                                <li>I am currently working as a Backend Developer Intern!</li>                                                
-                                                <li>I am developing a microservice backend infastructure which aims to automate several manual processes for supply chain networks.</li>                                                
-                                                <li>My main role is to write API endpoints for these microservices in NestJS, and using MongoDB as the database.</li>                                                
-                                                <li>I am also responsible for DevOps affairs, where I maintain and troubleshoot AWS services such as EC2, Amplify and S3 instances.</li>                                                
+                                                <li>I worked as a Backend Developer Intern</li>                                                
+                                                <li>I developed a microservice backend infastructure which aims to automate several manual processes for supply chain networks.</li>                                                
+                                                <li>My main role was to write API endpoints for these microservices in NestJS, and using MongoDB as the database.</li>                                                
+                                                <li>I was also responsible for DevOps affairs, where I maintained and troubleshoot AWS services such as EC2, Amplify and S3 instances.</li>                                                
                                                 <li>Lastly, I was in charge of deploying our production environment in all AWS services.</li>                                                
                                             </ul>
                                         </div>
@@ -191,7 +192,7 @@ export default function Home() {
                                     <div class="flex md:flex-row flex-col justify-between p-0 md:p-16 w-full items-center">
                                         <a target="_blank" href="https://thepowdermill.ca/"><img src="../images/pmlogo.png"></img></a>
                                         <div class="w-full ml-0 md:ml-32">
-                                            <h1 class="text-1.5xl font-black md:text-left text-center">Software Developer Intern</h1>
+                                            <h1 class="text-1.5xl font-black md:text-left text-center">Contract Software Developer</h1>
                                             <div class="flex md:justify-between justify-center lg:flex-row flex-col md:items-start items-center">
                                                 <h2 class="text-xl font-black">The Powdermill</h2>
                                                 <h2 class="text-xl font-black italic">May 2022-Aug 2022</h2>

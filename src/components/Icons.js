@@ -12,7 +12,6 @@ function Icons() {
                   <a href="#section-3" class="py-2 pl-3 pr-4 opacity-100 transition duration-300 ease-in-out hover:opacity-50">Projects</a>
                 </li>
                 <li>
-                  <a href="#section-3" class="py-2 pl-3 pr-4 opacity-100 transition duration-300 ease-in-out hover:opacity-50">Contact</a>           
                 </li>
               </ul>
             </div>  
